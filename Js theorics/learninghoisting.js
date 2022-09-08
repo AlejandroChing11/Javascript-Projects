@@ -1,0 +1,4 @@
+
+//EL HOISTING PASA CUANDO NO DECLARAMOS VARIABLES ANTES QUE EL CODIGO.
+var nombre;
+nombre = "Alejandro";
