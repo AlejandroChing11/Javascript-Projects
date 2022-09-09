@@ -1,11 +1,12 @@
 //VAMOS A APRENDER MUY BIEN LA ESTRUCTURA DE LAS FUNCIONES.
 //DOS TIPOS DE FUNCIONES.
 //FUNCION DECLARATIVA.
-function mifuncion() {
-    return 3;
+function mifuncion(a, b) {
+    c = a + b;
+    return c;
 }
 
-mifuncion();
+mifuncion(1, 2);
 
 
 //FUNCION DECLARATIVA.
