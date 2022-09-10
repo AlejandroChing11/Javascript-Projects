@@ -1,0 +1,1 @@
+//PENDIENTE DE HACER EL LOOP PARA LLENAR UN OBJETO. dentro de la carpeta esta el algoritmo guia.
