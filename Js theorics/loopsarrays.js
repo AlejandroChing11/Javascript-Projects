@@ -17,3 +17,9 @@ var NombresProduct = productos.map(function(producto) {
     return producto.Nombre;
 })
 NombresProduct
+
+//"SOME" = va a devolver un verdadero o falso como resultado de una validacion
+var juegosbaratos = productos.some(function(juego) {
+    return juego.costo <= 50;
+});
+juegosbaratos

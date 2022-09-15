@@ -9,7 +9,7 @@ function mifuncion(a, b) {
 mifuncion(1, 2);
 
 
-//FUNCION DECLARATIVA.
+//FUNCION EXPRESIVA.
 
 var miFuncion = function(a, b) {
     return a + b;
