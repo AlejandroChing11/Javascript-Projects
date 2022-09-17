@@ -13,7 +13,7 @@ while(r >= 2) {
     console.log("El valor de r es: ", r);
 }
 
-//CON PROMBT
+//CON PROMPT
 
 let resultado = 2 + 2;
 
