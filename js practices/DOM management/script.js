@@ -1,25 +1,17 @@
 const h1 = document.querySelector('h1');
-const paragraph = document.querySelector('.parrafo');
-const ConId = document.getElementById('P2');
-const input = document.querySelector('input');
+const input1 = document.querySelector('#Calculo1');
+const input2 = document.querySelector('#Calculo2');
+const button = document.querySelector('#btncalcular');
+const p = document.querySelector('#answer');
+const form = document.querySelector('#form');
 
-console.log(input.value);
+form.addEventListener("submit", formOnClick);
 
-console.log({
-    h1,
-    paragraph,
-    ConId,
-    input,
-});
-h1.innerHTML = "Alejandro Ching De Franco"; //Este convierte o interpreta HTML original.
-h1.innerText = "Alejandro Miguel Ching Franco"; //Este convierte todo lo que está entre parentesis como texto.
-//console.log(h1.getAttribute(`Nombre`));
-//console.log(h1.setAttribute(`Nombre`, `Mei Li ching`));
-//h1.classList.add("Rojo"); Para agregar lists
-//h1.classList.remove("Rojo"); //Sirve como contenedor de logins.
+//VAMOS A ESCUCHAR LOS EVENTOS O LO QUE HAGA EL USUARIO, SE CREA UNA FUNCION PARA PONERLA EN EL HTML.
+function formOnClick (event) {
+    const InputsSum = Number(input1.value) + Number(input2.value);
+    event.preventDefault();
+    //PARA ACCEDER A LO QUE VA DENTRO DE ESE <P><"/P".
+    p.innerText = "El resultado de la suma es de: " + InputsSum;
+}
 
-//input.value = 456 Este es para cambiar el elemento y editar la etiqueta.
-const img = document.createElement(`img`);
-img.setAttribute("src", `https://www.muycomputer.com/wp-content/uploads/2021/08/Spider-Man.jpg`);
-console.log(img);
-P2.append(img);
