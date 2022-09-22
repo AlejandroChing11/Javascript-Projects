@@ -15,3 +15,5 @@ function formOnClick (event) {
     p.innerText = "El resultado de la suma es de: " + InputsSum;
 }
 
+
+
