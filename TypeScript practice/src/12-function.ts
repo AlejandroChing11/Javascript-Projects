@@ -7,7 +7,7 @@
     stock: number,
     size: Sizes
   ) {
-    return {
+    return { //Retorning an object
       title,
       createAt,
       stock,
