@@ -4,5 +4,11 @@
   let products: (string | number | boolean)[] = [true, 'hi']
   products.push(12)
 
-  let mixed: (number | string | boolean | object )[] = [true, 11, 'hola']
+  let mixed: (number | string | boolean | Object )[] = [true, 11, 'hola']
+  mixed.push(12);
+  mixed.push({});
+  mixed.push([]);
+
+  const nums = [1, 2, 3 , 4, 5];
+  nums.map(num => num * 2);
 })();
