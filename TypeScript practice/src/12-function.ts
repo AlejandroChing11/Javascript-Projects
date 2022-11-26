@@ -5,7 +5,7 @@
     title: string,
     createAt: Date,
     stock: number,
-    size: Sizes
+    size?: Sizes //Optional chainning to put size as a unnecessary parameter
   ) {
     return { //Retorning an object
       title,
@@ -17,7 +17,7 @@
 
   const producto1 = createProductToJson('P1', new Date(), 12, 'XL');
   const producto2 = createProductToJson('P2', new Date(), 50, 'M');
-  const producto3 = createProductToJson('P3', new Date(), 100, 'L');
+  const producto3 = createProductToJson('P3', new Date(), 100); // We didn't put the size parameter
   console.log(producto1);
   console.log(producto1.size);
   console.log(producto2);
