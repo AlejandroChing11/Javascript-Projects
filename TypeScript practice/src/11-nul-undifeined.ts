@@ -25,7 +25,7 @@
 
   function hiV2(name: string | null) {
     let hello = 'hola ';
-    hello += name?.toLowerCase() || 'nobody'; //Optional chaining as a conditional expression
+    hello += name?.toLowerCase() || 'nobody'; //Optional chaining as a conditional expressions
     console.log(hello);
   }
 
