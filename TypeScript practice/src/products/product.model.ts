@@ -5,3 +5,8 @@ export type Product = { //This is an object as a type
     stock: number,
     size?: Size
   };
+
+
+const rta = 1 + '1'
+
+console.log(rta)
