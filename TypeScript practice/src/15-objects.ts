@@ -1,6 +1,6 @@
 (()=> {
   type Size = 'S' | 'M' | 'L' | 'XL'
-  type Product = {
+  type Product = { //This is an object as a type
     title: string,
     createAt: Date,
     stock: number,
